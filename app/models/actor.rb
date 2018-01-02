@@ -7,7 +7,7 @@ class Actor < ActiveRecord::Base
   end
 
   def list_roles
-    select("* FROM characters")
+    character.all
   end
 
 end
