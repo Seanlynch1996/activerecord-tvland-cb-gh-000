@@ -9,5 +9,5 @@ class Character < ActiveRecord::Base
   def build_show(show)
     @show = show
   end
-    
+
 end
