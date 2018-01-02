@@ -3,7 +3,7 @@ class Actor < ActiveRecord::Base
   has_many :shows
 
   def full_name
-    Actor.@first_name + Actor.@last_name
+    @first_name + @last_name
   end
 
 end
