@@ -7,7 +7,7 @@ class Character < ActiveRecord::Base
   end
   def build_show(_show)
     sh = Show.new(name: _show)
-    
+
     @character.show = sh
   end
 
