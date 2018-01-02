@@ -7,8 +7,7 @@ class Actor < ActiveRecord::Base
   end
 
   def list_roles
-    char = Character.where("actor_id = ?", @id)
-    char 
+    @character.shows
   end
 
 end
