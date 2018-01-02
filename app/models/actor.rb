@@ -8,5 +8,6 @@ class Actor < ActiveRecord::Base
 
   def list_roles
     "#{Character.Show}"
+  end
 
 end
