@@ -7,7 +7,7 @@ class Actor < ActiveRecord::Base
   end
 
   def list_roles
-    "#{Character.@name}"
+    where(Character.@name = @name)
   end
 
 end
